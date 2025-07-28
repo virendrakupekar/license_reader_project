@@ -8,7 +8,7 @@ This project detects and reads vehicle license plates from images or a live came
 ## 🔧 Requirements
 
 - Python 3.8 or higher
-- Linux or WSL (for Windows users)
+- Linux
 - Virtual environment (recommended)
 - System dependencies:
   - OpenCV
@@ -91,12 +91,29 @@ python main.py
 ## 📦 `requirements.txt`
 
 ```txt
-kivy==2.3.0
-opencv-python
-torch
-torchvision
-numpy
-Pillow
+kivy==2.3.1
+Kivy-Garden==0.1.5
+numpy==1.24.4
+opencv-python==4.11.0.86
+pillow==10.4.0
+torch==2.4.1
+torchvision==0.19.1
+easyocr==1.7.2
+pytesseract==0.3.13
+python-bidi==0.6.6
+pyclipper==1.3.0.post6
+scikit-image==0.21.0
+shapely==2.0.7
+scipy==1.10.1
+imageio==2.35.1
+PyWavelets==1.4.1
+tifffile==2023.7.10
+requests==2.32.3
+colorama==0.4.6
+Jinja2==3.1.6
+MarkupSafe==2.1.5
+packaging==25.0
+
 ```
 
 ---
@@ -162,4 +179,4 @@ Want to improve the accuracy, UI, or add database support? Feel free to fork and
 
 ## 📃 License
 
-MIT License © 2025 [Virendra Kupekar](https://github.com/virendradk)
+MIT License © 2025 [Virendra Kupekar](https://github.com/virendrakupekar)
